@@ -7,9 +7,6 @@ from hashtables import (HashTable,
 def get_indices_of_item_weights(weights, length, limit):
     ht = HashTable(16)
 
-    """
-    YOUR CODE HERE
-    """
     # weight is the weights at i
     # weight_limit is the limit - weight
     # retrieve the weight_limit and set it as index_pair
